@@ -1,0 +1,45 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(145, 79, 136);
+}
+
+#button {
+    width: 400px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 15px;
+    border: 3px solid rgb(106, 19, 94);
+    background-color: rgb(127, 22, 113);
+    color:white;
+    position: relative;
+    left: 40%;
+    top:50px;
+}
+
+img{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5%;
+    border:3px solid rgb(106, 19, 94);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+h2{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
